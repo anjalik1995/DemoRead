@@ -13,6 +13,7 @@ public class RDemo {
 			if (o instanceof Student)
 				s = (Student) o;
 			System.out.println(s.name + "  " + s.dept + " " + s.per);
+			//printing output
 			ois.close();
 		} catch (IOException | ClassNotFoundException e) {
 			e.printStackTrace();
